@@ -6,20 +6,20 @@
 /*   By: skillian <skillian@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 20:25:05 by skillian          #+#    #+#             */
-/*   Updated: 2021/09/18 20:37:11 by skillian         ###   ########.fr       */
+/*   Updated: 2021/09/29 22:45:35 by skillian         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 /*
-//Speicher freimachen
-(*join)); //hier mit * da ich Value moechte nicht adresse
-//malloc protection
-//str kombinieren
-//join auf Stelle 0/Anfang und Ausgeben
+	Speicher freimachen
+	(*join)); //hier mit * da ich Value moechte nicht adresse
+	malloc protection
+	str kombinieren
+	join auf Stelle 0/Anfang und Ausgeben
 */
 char	*ft_strjoin(char const *s1, char const *s2)
-/* (malloc) and adds s2 to s1) */
+/* (malloc) and adds s2 to s1 */
 {
 	char	*join;
 	int		i;

@@ -6,15 +6,14 @@
 /*   By: skillian <skillian@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/30 21:01:28 by skillian          #+#    #+#             */
-/*   Updated: 2021/08/13 17:20:16 by skillian         ###   ########.fr       */
+/*   Updated: 2021/09/29 22:55:49 by skillian         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 /*
-return (1);	// bei 0 brauche ich nur einen Seicherplatz (+1Nulterm)
-if (n < 0)		// Sppeicherplatz malloc fuer Minuszeichen
-*/
+return (1);	// bei 0 brauche ich nur einen Seicherplatz (+1Nullterm)
+if (n < 0)		// Sppeicherplatz malloc fuer Minuszeichen */
 static int	ft_digitcounter(int n)
 {
 	int	l;
